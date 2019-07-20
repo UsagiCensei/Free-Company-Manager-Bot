@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const msgParse = require('./lib/msgParse.js');
 
 // Fill add in your own developer token for your bot.
 const discordToken = 'Bot-Token';
@@ -10,6 +11,11 @@ const botClient = new Discord.Client();
 botClient.login(discordToken);
 
 // Listeners Start Here
+// Send a note to console when the bot is logged in
 botClient.on('ready', ()=> {
     console.log("Bot successfully logged in...");
 });
+
+botClient.on('message', msg=> {
+    msgParse.parseMsg(msg)
+})
