@@ -1,0 +1,20 @@
+{
+  "name": "Free-Company-Manager-Bot",
+  "version": "1.0.0",
+  "description": "A customizable, open-source discord bot intended to be used to help manage Final Fantasy XIV [FFXIV] free company's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsagiCensei/Free-Company-Manager-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UsagiCensei/Free-Company-Manager-Bot/issues"
+  },
+  "homepage": "https://github.com/UsagiCensei/Free-Company-Manager-Bot#readme"
+}
