@@ -15,13 +15,15 @@ module.exports = {
         }
 
         switch(commandID) {
-            case "!me":
-                message.reply("I'm a developmental bot!")
+            case "!register":
+                if (msgString.substr(0,msgString.indexOf(' ')).length > 1) {
+
+                }
+                
+                else {
+                    message.reply("I'm sorry, I couldn't understand that! :(\n\nTo use this command, please use !register firstName lastName");
+                }
                 break;
-            case "!hello":
-                    console.log("Triggered");
-                    message.reply("Hi!")
-                    break;
         }
 
     }
